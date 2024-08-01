@@ -10,8 +10,8 @@ https://github.com/developernum1/entryTrans
 - MySQL 8.0.38
 
 
-## 1. Download and unzip fyg.zip. e.g., to c:\fyg
-
+## 1. Download and unzip fyg.zip to local folder. For example: "c:\fyg"
+https://github.com/developernum1/entryTrans/fyg.zip
 
 ## 2. Schema and Database setup
 # Connect to MySQL server in a mysql client, such as MySQL workbench, with your root user
