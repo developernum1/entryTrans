@@ -1,0 +1,94 @@
+.update-transaction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.update-transaction-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    flex: 0 0 150px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form-group input,
+.form-group select {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group select {
+    background-color: #fff;
+}
+
+.form-group select option:first-child {
+    color: #999;
+}
+
+.form-value {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.update-button,
+.cancel-button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    min-width: 120px;
+    box-sizing: border-box; 
+    line-height: 1.5; 
+}
+
+.update-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.update-button:hover {
+    background-color: #218838;
+}
+
+.cancel-button:hover {
+    background-color: #0056b3;
+}

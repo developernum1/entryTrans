@@ -1,0 +1,60 @@
+.transaction-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.create-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.create-button:hover {
+    background-color: #0056b3;
+}
+
+.transaction-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.transaction-table th {
+    background-color: #f4f4f4;
+}
+
+.transaction-table .action-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.transaction-table .action-button:hover {
+    background-color: #0056b3;
+}
